@@ -1,6 +1,6 @@
 # Renna Labs Typescript Config
 
-[![npm version](https://badge.fury.io/js/@rennalabs%2Feslint-config.svg)](https://badge.fury.io/js/@rennalabs%2Feslint-config)
+[![npm version](https://badge.fury.io/js/@rennalabs%2Ftsconfig.svg)](https://badge.fury.io/js/@rennalabs%2Ftsconfig)
 
 ## Table of Contents
 
