@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@rennalabs/tsconfig",
   "version": "1.0.0",
   "description": "Renna Labs' Typescript Config",
   "main": "index.js",
