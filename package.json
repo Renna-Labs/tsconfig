@@ -1,0 +1,32 @@
+{
+  "name": "tsconfig",
+  "version": "1.0.0",
+  "description": "Renna Labs' Typescript Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renna-Labs/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "config"
+  ],
+  "author": {
+    "name": "Renna-Labs",
+    "email": "tech@rennalabs.xyz",
+    "twitter": "@rennalabs"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Renna-Labs/tsconfig/issues"
+  },
+  "homepage": "https://github.com/Renna-Labs/tsconfig#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.x.x",
+    "@typescript-eslint/parser": "^5.x.x",
+    "@babel/preset-react": "^7.x.x",
+    "@babel/preset-typescript": "^7.x.x",
+    "typescript": "^4.x.x"
+  }
+}
