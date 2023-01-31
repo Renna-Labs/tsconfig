@@ -44,8 +44,9 @@ Run `npm info "@rennalabs/tsconfig@latest" peerDependencies` to list the peer de
 
    ```json
    {
-     "root": true,
-     "extends": "@rennalabs/tsconfig/tsconfig.json"
+     "extends": "@rennalabs/tsconfig/tsconfig.json",
+     "include": ["**/*.ts", "**/*.tsx"],
+     "exclude": ["node_modules"]
    }
    ```
 
@@ -120,8 +121,12 @@ If you'd like to override any rules, you can add the rules to your `.eslintrc` a
 
 ```json
 {
+  "extends": "@rennalabs/tsconfig/tsconfig.json",
   "compilerOptions": {
-    "declaration": true
-  }
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
 ```
