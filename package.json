@@ -1,6 +1,6 @@
 {
   "name": "@rennalabs/tsconfig",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Renna Labs' Typescript Config",
   "main": "index.js",
   "repository": {
@@ -23,10 +23,14 @@
   },
   "homepage": "https://github.com/Renna-Labs/tsconfig#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.x.x",
-    "@typescript-eslint/parser": "^5.x.x",
-    "@babel/preset-react": "^7.x.x",
-    "@babel/preset-typescript": "^7.x.x",
-    "typescript": "^4.x.x"
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
